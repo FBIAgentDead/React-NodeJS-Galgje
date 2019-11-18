@@ -1,68 +1,28 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Custom Shader
 
-## Available Scripts
+Het doel was om een klein voorbeeld spelletje te maken die laat zien hoe je met behulp van een vertex shader een character zijn weight kan aanpassen. Deze oefening is gemaakt met behulp van de unity engine en gebuild als een WebGL build.
 
-In the project directory, you can run:
+## Features
+Wanneer je een specifiek onderdeel wilt uitlichten kun je dat in deze sectie benoemen.
 
-### `npm start`
+- [Awesome Algoritme](link)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Software Anaylse 
+Ik heb gebruik gemaakt van de Unity engine de basis van shaders zijn alemaal hetzelfde dus dacht ik om dan gebruik te maken van een bekende engine. 
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Leerdoelen 
+Wat wil je bereiken met dit project? Formuleer dit kort, krachtig en haalbaar.
+- Leren werken met een vertex shader ik had hiervoor alleen nog maar met de fragment gepuzzled
+- Leren werken met een surface shader met belichting erbij inplaats van unlit
 
-### `npm test`
+## Planning 
+Je hebt grofweg 2 weken, hoe deel je deze twee weken in. Wat plan je wanneer om precies te doen?
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+| | maandag | dinsdag | woensdag | donderdag | vrijdag |
+| --- | --- | --- | --- | --- | --- |
+|week 1 | Onderzoek | Project klaar zetten | Git opzetten | feature plan aanmaken | Reflecteren op het process |
+|week 2 | Werken aan feature | Git readme afmaken | Build klaar zetten en testen | Build online zetten | Reflecteren op het process |
 
-### `npm run build`
+## Bronnen
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- [Example surface shaders](https://docs.unity3d.com/Manual/SL-SurfaceShaderExamples.html)
