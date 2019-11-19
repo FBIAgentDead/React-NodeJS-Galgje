@@ -1,9 +1,12 @@
-# Custom Shader
+# Galgje-React-Game
 
-Het doel was om een klein voorbeeld spelletje te maken die laat zien hoe je met behulp van een vertex shader een character zijn weight kan aanpassen. Deze oefening is gemaakt met behulp van de unity engine en gebuild als een WebGL build.
+Het is een react website met een galgje interface waarbij je met andere spelers kan spelen met behulp van Node.js 
 
 ## Features
-Wanneer je een specifiek onderdeel wilt uitlichten kun je dat in deze sectie benoemen.
+Node pings tussen users
+React smooth refreshing-updating
+Connecting to a react server
+Joining specific rooms using socket.io
 
 - [Awesome Algoritme](link)
 
