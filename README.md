@@ -3,10 +3,10 @@
 Het is een react website met een galgje interface waarbij je met andere spelers kan spelen met behulp van Node.js 
 
 ## Features
-Node pings tussen users
-React smooth refreshing-updating
-Connecting to a react server
-Joining specific rooms using socket.io
+-Node pings tussen users
+-React smooth refreshing-updating
+-Connecting to a react server
+-Joining specific rooms using socket.io
 
 - [Awesome Algoritme](link)
 
