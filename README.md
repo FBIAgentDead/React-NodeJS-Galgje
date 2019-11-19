@@ -8,8 +8,6 @@ Het is een react website met een galgje interface waarbij je met andere spelers 
 -Connecting to a react server <br />
 -Joining specific rooms using socket.io
 
-- [Awesome Algoritme](link)
-
 ## Software Anaylse 
 Ik heb gebruik gemaakt van de Unity engine de basis van shaders zijn alemaal hetzelfde dus dacht ik om dan gebruik te maken van een bekende engine. 
 
