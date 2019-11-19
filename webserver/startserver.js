@@ -28,6 +28,11 @@ io.on('connection', function(socket){
     socket.to(room).emit("message",{message});
   });
 
+  socket.on('set word', (word) =>{
+    io.sockets.adapter.rooms[room].currentWord = word;
+    socket.to(room).emit("onWordChosen", io.sockets.adapter.rooms[room].currentWord);
+  });
+
 });
 
 
@@ -35,18 +40,3 @@ io.on('connection', function(socket){
 http.listen(3001, function(){
   console.log('listening on *:3001');
 });
-
-class Room{
-    constructor(users, rounds, currentWord){
-        this.users = users;
-        this.rounds = rounds;
-        this.currentWord = currentWord;
-        this.start();
-    }
-
-    start(){
-        for(let i = 0; i < this.users.count; i++){
-            this.users[i].wordLeader = false;
-        }
-    }
-}
