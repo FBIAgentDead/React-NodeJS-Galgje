@@ -28,6 +28,11 @@ io.on('connection', function(socket){
     socket.to(room).emit("message",{message});
   });
 
+  socket.on('set word', (word) =>{
+    io.sockets.adapter.rooms[room].currentWord = word;
+    socket.to(room).emit("onWordChosen", io.sockets.adapter.rooms[room].currentWord);
+  });
+
 });
 
 http.listen(3001, function(){
