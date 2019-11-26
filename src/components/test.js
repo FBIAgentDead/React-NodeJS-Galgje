@@ -7,4 +7,4 @@ console.log('oof1')
 delay(4000);
 console.log('oof2')
 socket.emit('join room');
-socket.emit('set word', "hallo");
+//socket.emit('set word', "hallo");
