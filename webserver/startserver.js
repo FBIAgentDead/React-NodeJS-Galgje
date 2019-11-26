@@ -16,6 +16,7 @@ io.on('connection', function(socket){
 
   socket.on('send letter', (letter) =>{
     console.log(letter);
+    var cWord = io.sockets.adapter.rooms[room].currentWord;
   });
 
   socket.on('join room', (room) =>{
@@ -31,6 +32,7 @@ io.on('connection', function(socket){
   socket.on('set word', (word) =>{
     io.sockets.adapter.rooms[room].currentWord = word;
     socket.to(room).emit("onWordChosen", io.sockets.adapter.rooms[room].currentWord);
+    console.log(io.sockets.adapter.rooms[room].currentWord);
   });
 
 });
@@ -38,3 +40,17 @@ io.on('connection', function(socket){
 http.listen(3001, function(){
   console.log('listening on *:3001');
 });
+
+class Hero {
+  constructor(name, level) {
+      this.name = name;
+      this.level = level;
+  }
+}
+
+class Player {
+  constructor(name, level) {
+      this.name = name;
+      this.level = level;
+  }
+}
